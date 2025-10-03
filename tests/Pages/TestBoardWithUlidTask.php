@@ -1,10 +1,10 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Tests\Pages;
+namespace Jessedev\FilamentKanban\Tests\Pages;
 
-use Mokhosh\FilamentKanban\Pages\KanbanBoard;
-use Mokhosh\FilamentKanban\Tests\Enums\TaskStatus;
-use Mokhosh\FilamentKanban\Tests\Models\UlidTask;
+use Jessedev\FilamentKanban\Pages\KanbanBoard;
+use Jessedev\FilamentKanban\Tests\Enums\TaskStatus;
+use Jessedev\FilamentKanban\Tests\Models\UlidTask;
 
 class TestBoardWithUlidTask extends KanbanBoard
 {

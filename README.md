@@ -1,8 +1,7 @@
 # Add kanban boards to your Filament pages
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mokhosh/filament-kanban.svg?style=flat-square)](https://packagist.org/packages/mokhosh/filament-kanban)
-[![Total Downloads](https://img.shields.io/packagist/dt/mokhosh/filament-kanban.svg?style=flat-square)](https://packagist.org/packages/mokhosh/filament-kanban)
-
+This package is a form of [filament-kanban](https://github.com/mokhosh/filament-kanban) made by [Mo Khosh](https://github.com/mokhosh). All credit goes to him.
+This version just adds support for Filament 4.
 
 Easily add Kanban board pages to your Filament panels.
 
@@ -19,7 +18,7 @@ Easily add Kanban board pages to your Filament panels.
 You can install the package via composer:
 
 ```bash
-composer require mokhosh/filament-kanban
+composer require jessedev/filament-kanban
 ```
 
 Publish the assets so the styles are correct:
@@ -40,7 +39,7 @@ I recommend you create a string backed `Enum` to define your statuses.
 You can use our `IsKanbanStatus` trait, so you can easily transform your enum cases for the Kanban board using the `statuses` method on your enum.
 
 ```php
-use Mokhosh\FilamentKanban\Concerns\IsKanbanStatus;
+use Jessedev\FilamentKanban\Concerns\IsKanbanStatus;
 
 enum UserStatus: string
 {

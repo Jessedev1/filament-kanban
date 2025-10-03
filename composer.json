@@ -1,15 +1,16 @@
 {
-    "name": "mokhosh/filament-kanban",
+    "name": "jessedev/filament-kanban",
     "description": "Add kanban boards to your Filament pages",
     "keywords": [
         "mokhosh",
+        "jessedev",
         "laravel",
         "filament-kanban"
     ],
-    "homepage": "https://github.com/mokhosh/filament-kanban",
+    "homepage": "https://github.com/jessedev1/filament-kanban",
     "support": {
-        "issues": "https://github.com/mokhosh/filament-kanban/issues",
-        "source": "https://github.com/mokhosh/filament-kanban"
+        "issues": "https://github.com/jessedev1/filament-kanban/issues",
+        "source": "https://github.com/jessedev1/filament-kanban"
     },
     "license": "MIT",
     "authors": [
@@ -21,9 +22,9 @@
     ],
     "require": {
         "php": "^8.1",
-        "filament/filament": "^3.0",
+        "filament/filament": "^4.0",
         "spatie/laravel-package-tools": "^1.15.0",
-        "illuminate/contracts": "^10.0|^11.0|^12.0"
+        "illuminate/contracts": "^11.0|^12.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
@@ -37,13 +38,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Mokhosh\\FilamentKanban\\": "src/",
-            "Mokhosh\\FilamentKanban\\Database\\Factories\\": "database/factories/"
+            "Jessedev\\FilamentKanban\\": "src/",
+            "Jessedev\\FilamentKanban\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mokhosh\\FilamentKanban\\Tests\\": "tests/"
+            "Jessedev\\FilamentKanban\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -63,10 +64,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mokhosh\\FilamentKanban\\FilamentKanbanServiceProvider"
+                "Jessedev\\FilamentKanban\\FilamentKanbanServiceProvider"
             ],
             "aliases": {
-                "FilamentKanban": "Mokhosh\\FilamentKanban\\Facades\\FilamentKanban"
+                "FilamentKanban": "Jessedev\\FilamentKanban\\Facades\\FilamentKanban"
             }
         }
     },
